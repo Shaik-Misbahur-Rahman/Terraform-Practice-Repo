@@ -1,8 +1,5 @@
-resource "aws_vpc" "test" {
-  cidr_block = "10.0.0.0/16"
-  tags = {
-    Name = "test-vpc"
-  }
+resource "aws_s3_bucket" "test" {
+  bucket = "test-bucket-terraform-practice"
   region = "us-east-1"
 
 }
