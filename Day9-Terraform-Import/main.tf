@@ -16,3 +16,10 @@ resource "aws_s3_bucket_versioning" "versioning_example" {
     status = "Enabled"
   }
 }
+
+
+
+
+
+#   terraform import aws_instance.name instance_id  =  To Import existing AWS EC2 instance into Terraform state file
+#   terraform import aws_s3_bucket.name bucket_name  =  To Import existing AWS S3 bucket into Terraform state file
